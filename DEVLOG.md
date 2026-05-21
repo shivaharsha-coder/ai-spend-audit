@@ -31,3 +31,37 @@ Plan for tomorrow:
 - Build AI spend audit form
 - Learn React useState
 - Handle form inputs and submission
+
+
+
+
+## Day 2 — 2026-05-22
+
+Hours worked: 4
+
+What I did:
+- Built AI spend audit form UI
+- Added input fields (tool, plan, monthly spend, users, use case)
+- Implemented state management using useState
+- Handled form submission
+- Displayed form data in console for debugging
+
+What I learned:
+- How to use React useState hook
+- Handling form inputs in React
+- Managing component state
+- Debugging using browser console
+
+Blockers:
+- Initially confused why inputs were not showing
+- Faced issue with incomplete code paste
+
+How I solved blockers:
+- Replaced full code properly
+- Restarted development server
+- Verified changes in browser
+
+Plan for next day:
+- Implement audit logic
+- Show results based on user input
+- Improve user experience
