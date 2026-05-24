@@ -96,3 +96,39 @@ How I solved blockers:
 Plan:
 - Improve recommendations
 - Enhance UI for results
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Day 4 — 2026-05-24
+Hours worked: 4
+
+What I did:
+- Implemented login page using localStorage
+- Added route protection for main page
+- Created logout functionality
+- Added form validation to prevent empty inputs
+- Improved user flow between login and dashboard
+
+What I learned:
+- Managing authentication using localStorage
+- Handling navigation in Next.js
+- Improving UX with validation and redirects
+
+Blockers:
+- Understanding how to protect routes
+
+How I solved:
+- Used useEffect to check login state
+
+Plan:
+- Enhance UI and add advanced features
