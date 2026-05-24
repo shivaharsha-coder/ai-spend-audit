@@ -105,10 +105,6 @@ Plan:
 
 
 
-
-
-
-
 ## Day 4 — 2026-05-24
 Hours worked: 6
 
@@ -137,6 +133,30 @@ Plan:
 
 
 
+
+
+## Day 5 — 2026-05-25
+Hours worked: 4
+
+What I did:
+- Enhanced audit logic with suggestions and savings calculation
+- Improved result UI with structured output
+- Added visual spending indicator bar
+- Displayed logged-in user name
+
+What I learned:
+- Improving UX with visual feedback
+- Structuring results clearly for users
+- Enhancing logic for better recommendations
+
+Blockers:
+- Designing better result display
+
+How I solved:
+- Used simple UI improvements and visual bar
+
+Plan:
+- Add charts and advanced analytics
 
 
 
