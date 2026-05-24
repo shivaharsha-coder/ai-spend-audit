@@ -110,7 +110,7 @@ Plan:
 
 
 ## Day 4 — 2026-05-24
-Hours worked: 4
+Hours worked: 6
 
 What I did:
 - Implemented login page using localStorage
@@ -132,3 +132,19 @@ How I solved:
 
 Plan:
 - Enhance UI and add advanced features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

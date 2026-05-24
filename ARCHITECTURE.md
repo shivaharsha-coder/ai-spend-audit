@@ -42,3 +42,8 @@
 - Centered card layout
 - Input fields + button
 - Result displayed dynamically
+
+## 9. UX Enhancements (Day 5)
+- Added structured result display
+- Added visual spending indicator bar
+- Improved user feedback with suggestions and savings

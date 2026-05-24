@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #020617, #0f172a, #1e3a8a);
+  background: radial-gradient(circle at top, #0f172a, #020617);
   color: white;
 }
 
@@ -9,32 +9,60 @@ body {
 .container {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+/* 🔥 NEW CENTER HEADER */
+.header-center {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header-center h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.header-center p {
+  color: #94a3b8;
+  font-size: 14px;
 }
 
 /* Card */
 .card {
-  width: 360px;
+  width: 420px;
   padding: 30px;
-  border-radius: 16px;
-  background: rgba(255,255,255,0.06);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 0 40px rgba(59,130,246,0.3);
-  text-align: center;
-  position: relative;
-  animation: fadeIn 0.8s ease;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 0 60px rgba(59,130,246,0.25);
+  animation: fadeIn 0.6s ease;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 80px rgba(59,130,246,0.35);
 }
 
 /* Titles */
 .title {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 5px;
 }
 
 .subtitle {
   color: #94a3b8;
   margin-bottom: 20px;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  gap: 10px;
 }
 
 /* Inputs */
@@ -44,20 +72,21 @@ body {
   margin: 8px 0;
   border-radius: 10px;
   border: none;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.5);
   color: white;
   outline: none;
   transition: 0.3s;
 }
 
 .input:focus {
-  box-shadow: 0 0 10px #3b82f6;
+  box-shadow: 0 0 12px #3b82f6;
+  transform: scale(1.02);
 }
 
 /* Button */
 .button {
   width: 100%;
-  padding: 12px;
+  padding: 14px;
   margin-top: 12px;
   border-radius: 10px;
   border: none;
@@ -70,16 +99,52 @@ body {
 
 .button:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 15px #3b82f6;
+  box-shadow: 0 0 20px #3b82f6;
 }
 
-/* Result Card */
+/* Result */
 .result {
   margin-top: 20px;
   padding: 15px;
   border-radius: 12px;
-  background: rgba(0,0,0,0.5);
-  animation: slideUp 0.5s ease;
+  background: rgba(0,0,0,0.6);
+  border-left: 4px solid #3b82f6;
+  animation: slideUp 0.4s ease;
+}
+
+/* 🔥 DASHBOARD */
+.dashboard {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dash-card {
+  width: 180px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  box-shadow: 0 0 20px rgba(59,130,246,0.2);
+  transition: 0.3s;
+}
+
+.dash-card:hover {
+  transform: scale(1.05);
+}
+
+.dash-card h3 {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.dash-card p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 /* Logout */
@@ -89,7 +154,7 @@ body {
   right: 10px;
   background: crimson;
   border: none;
-  padding: 6px 10px;
+  padding: 6px 12px;
   border-radius: 6px;
   color: white;
   cursor: pointer;
@@ -97,8 +162,8 @@ body {
 
 /* Animations */
 @keyframes fadeIn {
-  from { opacity: 0; transform: scale(0.9);}
-  to { opacity: 1; transform: scale(1);}
+  from { opacity: 0; transform: translateY(20px);}
+  to { opacity: 1; transform: translateY(0);}
 }
 
 @keyframes slideUp {
