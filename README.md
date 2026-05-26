@@ -1,6 +1,9 @@
 # AI Spend Audit
+## Live Demo
+ai-spend-audit-1ziq.vercel.app
 
 AI Spend Audit is a simple web application that helps users analyze and optimize their spending on AI tools like ChatGPT, Claude, and others.
+
 
 ---
 
