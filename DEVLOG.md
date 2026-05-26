@@ -168,3 +168,58 @@ Plan:
 
 
 
+## Day 5 — 2026-05-25
+Hours worked: 4
+
+What I did:
+- Enhanced audit logic with suggestions and savings calculation
+- Improved result UI with structured output
+- Added visual spending indicator bar
+- Displayed logged-in user name
+
+What I learned:
+- Improving UX with visual feedback
+- Structuring results clearly for users
+- Enhancing logic for better recommendations
+
+Blockers:
+- Designing better result display
+
+How I solved:
+- Used simple UI improvements and visual bar
+
+Plan:
+- Add charts and advanced analytics
+
+
+
+
+
+
+
+
+
+
+
+## Day 6 — 2026-05-26
+
+Hours worked: 6
+
+What I did:
+- Created detailed product documentation
+- Added economics, user interviews, and metrics
+- Improved overall project structure
+- Finalized project for submission
+
+What I learned:
+- Thinking like a product developer
+- Writing meaningful documentation
+
+Blockers:
+- Lack of experience in documentation
+
+How I solved blockers:
+- Broke each section into simple parts
+
+Plan:
+- Submit assignment
