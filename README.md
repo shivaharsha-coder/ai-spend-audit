@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💡 AI Spend Audit
 
-## Getting Started
+AI Spend Audit is a simple web application that helps users analyze and optimize their spending on AI tools like ChatGPT, Claude, and others.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Idea
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+With the increasing usage of AI tools, users often subscribe to multiple services without tracking their total monthly cost.  
+This project solves that problem by providing a quick and simple spending audit.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+- 🔍 Smart spend analysis
+- 💰 Savings suggestions
+- 📊 Simple dashboard experience
+- 🔐 Basic login system (localStorage)
+- ⚡ Instant feedback based on user input
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Problem Statement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Users today rely heavily on AI tools but lack visibility into their spending.  
+This leads to unnecessary subscriptions and wasted money.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 Solution
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AI Spend Audit allows users to:
+- Input their AI tool usage
+- Analyze spending level (High / Moderate / Optimized)
+- Get actionable suggestions to reduce cost
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js (App Router)
+- **Language:** JavaScript / React
+- **Styling:** CSS
+- **State Management:** React Hooks
+- **Storage:** LocalStorage (for authentication)
+
+---
+
+## ⚙️ How It Works
+
+1. User logs in (username stored in localStorage)
+2. Enters:
+   - Tool name
+   - Plan
+   - Monthly spend
+   - Number of users
+   - Use case
+3. App analyzes spending
+4. Displays:
+   - Spending level
+   - Suggestion
+   - Estimated savings
+
+---
+
+## 📊 Example Output
+⚠️ High spending on ChatGPT
+Suggestion: Downgrade plan
+💰 Save $30/month
+
+---
+
+## 📈 Future Improvements
+
+- Add charts and analytics dashboard
+- Store audit history
+- Add backend (database)
+- Implement real authentication
+- Add team-based insights
+
+---
+
+## 🧑‍💻 Author
+
+**Vakulabharanam Shiva Harsha**
+
+---
+
+## 📌 Final Note
+
+This project was built as part of a structured internship assignment focusing on:
+- Frontend development
+- Logic building
+- Product thinking
+- Documentation
+
+---
